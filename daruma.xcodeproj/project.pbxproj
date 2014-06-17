@@ -21,6 +21,17 @@
 		F40B9E031873666300FF64AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F40B9DE51873666200FF64AF /* UIKit.framework */; };
 		F40B9E0B1873666300FF64AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F40B9E091873666300FF64AF /* InfoPlist.strings */; };
 		F40B9E0D1873666300FF64AF /* darumaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F40B9E0C1873666300FF64AF /* darumaTests.m */; };
+		F45521BC188175BB0081B286 /* good.png in Resources */ = {isa = PBXBuildFile; fileRef = F45521BB188175BB0081B286 /* good.png */; };
+		F45521C01881762A0081B286 /* bad.png in Resources */ = {isa = PBXBuildFile; fileRef = F45521BF1881762A0081B286 /* bad.png */; };
+		F45521C4188179750081B286 /* fukidashi02.png in Resources */ = {isa = PBXBuildFile; fileRef = F45521C3188179750081B286 /* fukidashi02.png */; };
+		F45DFF5E188027890085941A /* ん.png in Resources */ = {isa = PBXBuildFile; fileRef = F45DFF5A188027890085941A /* ん.png */; };
+		F45DFF5F188027890085941A /* ま.png in Resources */ = {isa = PBXBuildFile; fileRef = F45DFF5B188027890085941A /* ま.png */; };
+		F45DFF60188027890085941A /* る.png in Resources */ = {isa = PBXBuildFile; fileRef = F45DFF5C188027890085941A /* る.png */; };
+		F45DFF61188027890085941A /* だ.png in Resources */ = {isa = PBXBuildFile; fileRef = F45DFF5D188027890085941A /* だ.png */; };
+		F4728CE4187D8CFE00FC8C43 /* TimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4728CE3187D8CFE00FC8C43 /* TimerViewController.m */; };
+		F4728CEA187D8D2F00FC8C43 /* GoodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4728CE9187D8D2F00FC8C43 /* GoodViewController.m */; };
+		F4728CF0187D8FA000FC8C43 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4728CEF187D8FA000FC8C43 /* InfoViewController.m */; };
+		F494C2BA187FFCC800F0D257 /* daruman.png in Resources */ = {isa = PBXBuildFile; fileRef = F494C2B9187FFCC800F0D257 /* daruman.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +64,20 @@
 		F40B9E081873666300FF64AF /* darumaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "darumaTests-Info.plist"; sourceTree = "<group>"; };
 		F40B9E0A1873666300FF64AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F40B9E0C1873666300FF64AF /* darumaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = darumaTests.m; sourceTree = "<group>"; };
+		F45521BB188175BB0081B286 /* good.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = good.png; sourceTree = "<group>"; };
+		F45521BF1881762A0081B286 /* bad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bad.png; sourceTree = "<group>"; };
+		F45521C3188179750081B286 /* fukidashi02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fukidashi02.png; sourceTree = "<group>"; };
+		F45DFF5A188027890085941A /* ん.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ん.png"; sourceTree = "<group>"; };
+		F45DFF5B188027890085941A /* ま.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ま.png"; sourceTree = "<group>"; };
+		F45DFF5C188027890085941A /* る.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "る.png"; sourceTree = "<group>"; };
+		F45DFF5D188027890085941A /* だ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "だ.png"; sourceTree = "<group>"; };
+		F4728CE2187D8CFE00FC8C43 /* TimerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TimerViewController.h; path = ../TimerViewController.h; sourceTree = "<group>"; };
+		F4728CE3187D8CFE00FC8C43 /* TimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TimerViewController.m; path = ../TimerViewController.m; sourceTree = "<group>"; };
+		F4728CE8187D8D2F00FC8C43 /* GoodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GoodViewController.h; path = ../GoodViewController.h; sourceTree = "<group>"; };
+		F4728CE9187D8D2F00FC8C43 /* GoodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GoodViewController.m; path = ../GoodViewController.m; sourceTree = "<group>"; };
+		F4728CEE187D8FA000FC8C43 /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InfoViewController.h; path = ../InfoViewController.h; sourceTree = "<group>"; };
+		F4728CEF187D8FA000FC8C43 /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InfoViewController.m; path = ../InfoViewController.m; sourceTree = "<group>"; };
+		F494C2B9187FFCC800F0D257 /* daruman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = daruman.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +107,14 @@
 		F40B9DD51873666200FF64AF = {
 			isa = PBXGroup;
 			children = (
+				F45521C3188179750081B286 /* fukidashi02.png */,
+				F45521BF1881762A0081B286 /* bad.png */,
+				F45521BB188175BB0081B286 /* good.png */,
+				F45DFF5A188027890085941A /* ん.png */,
+				F45DFF5B188027890085941A /* ま.png */,
+				F45DFF5C188027890085941A /* る.png */,
+				F45DFF5D188027890085941A /* だ.png */,
+				F494C2B9187FFCC800F0D257 /* daruman.png */,
 				F40B9DE71873666200FF64AF /* daruma */,
 				F40B9E061873666300FF64AF /* darumaTests */,
 				F40B9DE01873666200FF64AF /* Frameworks */,
@@ -117,6 +150,12 @@
 				F40B9DF31873666200FF64AF /* Main.storyboard */,
 				F40B9DF61873666200FF64AF /* ViewController.h */,
 				F40B9DF71873666200FF64AF /* ViewController.m */,
+				F4728CE2187D8CFE00FC8C43 /* TimerViewController.h */,
+				F4728CE3187D8CFE00FC8C43 /* TimerViewController.m */,
+				F4728CE8187D8D2F00FC8C43 /* GoodViewController.h */,
+				F4728CE9187D8D2F00FC8C43 /* GoodViewController.m */,
+				F4728CEE187D8FA000FC8C43 /* InfoViewController.h */,
+				F4728CEF187D8FA000FC8C43 /* InfoViewController.m */,
 				F40B9DF91873666200FF64AF /* Images.xcassets */,
 				F40B9DE81873666200FF64AF /* Supporting Files */,
 			);
@@ -228,8 +267,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F45DFF5F188027890085941A /* ま.png in Resources */,
+				F45DFF61188027890085941A /* だ.png in Resources */,
+				F45521BC188175BB0081B286 /* good.png in Resources */,
 				F40B9DFA1873666200FF64AF /* Images.xcassets in Resources */,
+				F45521C4188179750081B286 /* fukidashi02.png in Resources */,
 				F40B9DEC1873666200FF64AF /* InfoPlist.strings in Resources */,
+				F45521C01881762A0081B286 /* bad.png in Resources */,
+				F494C2BA187FFCC800F0D257 /* daruman.png in Resources */,
+				F45DFF5E188027890085941A /* ん.png in Resources */,
+				F45DFF60188027890085941A /* る.png in Resources */,
 				F40B9DF51873666200FF64AF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,6 +296,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4728CE4187D8CFE00FC8C43 /* TimerViewController.m in Sources */,
+				F4728CF0187D8FA000FC8C43 /* InfoViewController.m in Sources */,
+				F4728CEA187D8D2F00FC8C43 /* GoodViewController.m in Sources */,
 				F40B9DF81873666200FF64AF /* ViewController.m in Sources */,
 				F40B9DF21873666200FF64AF /* AppDelegate.m in Sources */,
 				F40B9DEE1873666200FF64AF /* main.m in Sources */,
@@ -460,6 +510,7 @@
 				F40B9E121873666300FF64AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F40B9E131873666300FF64AF /* Build configuration list for PBXNativeTarget "darumaTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +519,7 @@
 				F40B9E151873666300FF64AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
